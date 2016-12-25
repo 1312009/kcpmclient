@@ -192,7 +192,7 @@
         document.getElementById("hinhanh").src = document.getElementById("linkHinh").value;
         
         var d = new Date();
-        var date = "2016-12-25"
+        var date = d.getYear()+1900+"-"+d.getMonth()+"-"+d.getDay();
         function Submit() {
 
             $.ajax({
